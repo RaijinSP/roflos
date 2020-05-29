@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Serializer implements Serializable {
+public class Serializer {
 
     public static Map<String, Object> serialize(final Object obj)
             throws InvocationTargetException, IllegalAccessException {
